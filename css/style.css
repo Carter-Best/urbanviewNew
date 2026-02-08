@@ -1,0 +1,496 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+.logo {
+    width: 200px;
+    height: 150px;
+    margin-top: -20px;
+}
+
+.logoname {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-left: 200px;
+    margin-top: -70px;
+    color: #05ef21;
+    font-weight: bolder;
+}
+
+.nav-bar a {
+    float: left;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: -10px;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar ul {
+    list-style: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.nav-bar {
+    float: right;
+    margin-top: -58px;
+    margin-right: 60px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100000;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+
+.home_page {
+    background-image: url(../images/background.jpg);
+    width: 100%;
+    height: 1040px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    
+}
+
+.home_page h1 {
+    color: #05ef21;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 400px;
+    padding-top: 100px;
+}
+
+.home_page h3 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 21px;
+}
+
+.home_page div {
+    width: 30%;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+.home_page a {
+    text-decoration: none;
+    color: #000;
+}
+
+.slider-container {
+    width: 100%;
+    margin-top: 15px;
+    height: 400px;
+    
+}
+
+.carousel-item {
+    height: 800px;
+}
+
+.about {
+    display: flex;
+    width: 80%;
+    height: 300px;
+    margin-top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.a-logo {
+    width:  10%;
+}
+
+.logo-pic {
+    width: 180px;
+    height: 180px;
+    margin-top: -30px;
+}
+
+.logo-picc {
+    width: 150px;
+    height: 150px;
+    margin-top: -30px;
+}
+
+.content {
+    width: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    margin-left: 150px;
+    line-height: 25px;
+    font-size: larger;
+}
+
+.contentt {
+    width: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    margin-left: 150px;
+    line-height: 29px;
+    font-size: larger;
+}
+
+.about-2 {
+    display: flex;
+    width: 80%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
+}
+
+.content h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-top: -40px;
+}
+
+.services-content {
+    width: 100%;
+    color: #ffffff;
+    background-color: #068115;
+    margin-top: -110px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.services-content h1 {
+    text-decoration: underline;
+    font-size: 35px;
+    margin-left: 200px;
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+.services-content ul {
+    font-size: 18px;
+    margin-left: 210px;
+}
+
+.more {
+    font-size: 20px;
+    width: 300px;
+    height: 40px;
+    background-color: #ef6e05;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 200px;
+    cursor: pointer;
+}
+
+.services-content table {
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+.services-images img{
+    width: 300px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    margin-left: 15px !important;
+    border-radius: 8px;
+   
+}
+
+.services-images img:hover {
+    border: 7px white solid;
+
+}
+
+.loc h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.loc p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    
+}
+
+#map-container {
+    width: 60%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-top: 15px;
+    background-color: #068115;
+    color: #fff;
+    text-align: center;
+}
+
+/* about page goes here */
+
+.about-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100000;
+    padding: 5px 10px;
+    background-color: #fff;
+}
+
+.A-logoname {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-left: 200px;
+    margin-top: -70px;
+    color: #05ef21;
+    font-weight: bolder;
+}
+
+.about-nav-bar {
+    float: right;
+    margin-top: -58px;
+    margin-right: 30px;
+}
+
+.about-nav-bar a {
+    float: left;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: -10px;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-nav-bar ul {
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.about-section {
+    margin-top: 120px;
+}
+
+.AB-US {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    text-decoration: underline;
+    padding-top: 50px;
+}
+
+.about-content {
+    display: flex;
+    width: 80%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-logo {
+    width: 20%;
+}
+
+.aboutpage-content {
+    width: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    margin-left: 150px;
+    line-height: 29px;
+    font-size: larger;
+}
+
+.Alogo-pic {
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.mission-pic {
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+}
+
+.vission-pic {
+    width: 200px;
+    height: 200px;
+    
+}
+
+.about-us-content {
+    margin-top: 100px;
+}
+
+.about-contentt {
+    display: flex;
+    width: 80%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 950px;
+}
+
+.ab-container {
+    width: 100%;
+    height: 200px;
+    background-color: #068115;
+}
+
+
+/* Services content goes here */
+
+.services {
+    margin-top: 120px;
+}
+
+.services-container {
+    width: 100%;
+    height: 150px;
+    background-color: #068115;
+}
+
+.services-container h1 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+    text-decoration: underline;
+}
+
+.services-content-section {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.services-content-section h3 {
+    color: #068115;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.services-content-section p {
+    font-size: 19px;
+}
+.pictures {
+    width: 400px;
+    height: 40px;
+    padding: 5px;
+    background-color: #db8400;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    margin-left: 70px;
+    
+}
+
+/* contact page goes here */
+
+.contact-form-container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #068115;
+    padding: 5px;
+
+}
+
+
+.contact-form-container h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.form {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+input[type=text], [type=tel], [type=email], select  {
+
+    width: 100%;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid maroon;
+    
+  
+  }
+
+  textarea:hover {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid royalblue;
+    resize: none;
+    box-shadow: 1px 1px 1px 1px darkred;
+    cursor: pointer;
+  }
+  
+  input[type=submit] {
+     width: 20%;
+     padding: 5px;
+     background-color: royalblue;
+     color: #fff;
+     cursor: pointer;
+     border: none;
+  
+  }
+  
+  input[type=reset] {
+     width: 20%;
+     padding: 5px;
+     background-color: maroon;
+     color: #fff;
+     cursor: pointer;
+     border: none;
+    }
+
+.gallery-container {
+    margin-left: 30px;
+}
+
